@@ -1,0 +1,779 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libstdc++.so.6                /tmp/ccHZDu73.o (std::ios_base::Init::~Init()@@GLIBCXX_3.4)
+libgcc_s.so.1                 /tmp/ccHZDu73.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     /tmp/ccHZDu73.o (__stack_chk_fail@@GLIBC_2.4)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000       0x10 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000       0x10 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000       0x10 /tmp/ccHZDu73.o
+ .group         0x0000000000000000       0x10 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0x8 /tmp/ccHZDu73.o
+ .group         0x0000000000000000        0xc /tmp/ccHZDu73.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHZDu73.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /tmp/ccHZDu73.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libmvec_nonshared.a
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000238                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000238       0x1c
+ *(.interp)
+ .interp        0x0000000000000238       0x1c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x0000000000000254       0x20
+ .note.ABI-tag  0x0000000000000254       0x20 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000274       0x24 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000000298       0x24
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000298       0x24 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x00000000000002c0      0x210
+ *(.dynsym)
+ .dynsym        0x00000000000002c0      0x210 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x00000000000004d0      0x257
+ *(.dynstr)
+ .dynstr        0x00000000000004d0      0x257 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x0000000000000728       0x2c
+ *(.gnu.version)
+ .gnu.version   0x0000000000000728       0x2c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x0000000000000758        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000758        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x0000000000000758       0x90
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000758       0x90 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x00000000000007e8      0x138
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx114listIiSaIiEEC2Ev
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx114listIiSaIiEE9push_backERKi
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx114listIiSaIiEE6removeERKi
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx114listIiSaIiEE5beginEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx114listIiSaIiEE3endEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNKSt14_List_iteratorIiEdeEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx1110_List_baseIiSaIiEEC2Ev
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx114listIiSaIiEE9_M_insertIJRKiEEEvSt14_List_iteratorIiEDpOT_
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx114listIiSaIiEE8_M_eraseESt14_List_iteratorIiE
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt10_List_nodeIiE9_M_valptrEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx1110_List_baseIiSaIiEE10_List_implC2Ev
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx1110_List_baseIiSaIiEE7_M_initEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt16allocator_traitsISaISt10_List_nodeIiEEE7destroyIiEEvRS2_PT_
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_put_nodeEPSt10_List_nodeIiE
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx114listIiSaIiEE14_M_create_nodeIJRKiEEEPSt10_List_nodeIiEDpOT_
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_inc_sizeEm
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_dec_sizeEm
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN9__gnu_cxx16__aligned_membufIiE6_M_ptrEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSaISt10_List_nodeIiEEC2Ev
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_set_sizeEm
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt16allocator_traitsISaISt10_List_nodeIiEEE10deallocateERS2_PS1_m
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_get_nodeEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt15__allocated_ptrISaISt10_List_nodeIiEEEC2ERS2_PS1_
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt15__allocated_ptrISaISt10_List_nodeIiEEED2Ev
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt16allocator_traitsISaISt10_List_nodeIiEEE9constructIiJRKiEEEvRS2_PT_DpOT0_
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt10_List_nodeImE9_M_valptrEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZNSt16allocator_traitsISaISt10_List_nodeIiEEE8allocateERS2_m
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN9__gnu_cxx13new_allocatorISt10_List_nodeIiEE9constructIiJRKiEEEvPT_DpOT0_
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN9__gnu_cxx16__aligned_membufImE6_M_ptrEv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN9__gnu_cxx13new_allocatorISt10_List_nodeIiEE8allocateEmPKv
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x00000000000007e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x00000000000007e8       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000800       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000000818       0xa8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x00000000000008c0       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x00000000000008d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x00000000000008d8       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x00000000000008f0       0x30 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.eh_frame
+                0x0000000000000920        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000000920      0x120
+ *(.rela.plt)
+ .rela.plt      0x0000000000000920      0x120 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.init           0x0000000000000a40       0x17
+ *(SORT_NONE(.init))
+ .init          0x0000000000000a40       0x12 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+                0x0000000000000a40                _init
+ .init          0x0000000000000a52        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000000a60       0xd0
+ *(.plt)
+ .plt           0x0000000000000a60       0xd0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000000b30        0x8
+ *(.plt.got)
+ .plt.got       0x0000000000000b30        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000b40     0x10c2
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000b40       0x2b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000000b40                _start
+ .text          0x0000000000000b6b        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x0000000000000b6b        0x5 
+ .text          0x0000000000000b70       0xda /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .text          0x0000000000000c4a      0x647 /tmp/ccHZDu73.o
+                0x0000000000000c4a                Graph::Graph()
+                0x0000000000000c4a                Graph::Graph()
+                0x0000000000000caa                Graph::addEdge(int, int)
+                0x0000000000000d1a                Graph::removeEdge(int, int)
+                0x0000000000000d8a                Graph::isCyclicUtil(int, bool*, int)
+                0x0000000000000ece                Graph::isCyclic()
+                0x0000000000000f5f                main
+ .text._ZnwmPv  0x0000000000001291       0x12 /tmp/ccHZDu73.o
+                0x0000000000001291                operator new(unsigned long, void*)
+ *fill*         0x00000000000012a3        0x1 
+ .text._ZNSt7__cxx114listIiSaIiEEC2Ev
+                0x00000000000012a4       0x1b /tmp/ccHZDu73.o
+                0x00000000000012a4                std::__cxx11::list<int, std::allocator<int> >::list()
+                0x00000000000012a4                std::__cxx11::list<int, std::allocator<int> >::list()
+ *fill*         0x00000000000012bf        0x1 
+ .text._ZNSt7__cxx114listIiSaIiEE9push_backERKi
+                0x00000000000012c0       0x35 /tmp/ccHZDu73.o
+                0x00000000000012c0                std::__cxx11::list<int, std::allocator<int> >::push_back(int const&)
+ *fill*         0x00000000000012f5        0x1 
+ .text._ZNSt7__cxx114listIiSaIiEE6removeERKi
+                0x00000000000012f6      0x131 /tmp/ccHZDu73.o
+                0x00000000000012f6                std::__cxx11::list<int, std::allocator<int> >::remove(int const&)
+ *fill*         0x0000000000001427        0x1 
+ .text._ZNSt14_List_iteratorIiEC2Ev
+                0x0000000000001428       0x16 /tmp/ccHZDu73.o
+                0x0000000000001428                std::_List_iterator<int>::_List_iterator()
+                0x0000000000001428                std::_List_iterator<int>::_List_iterator()
+ .text._ZNSt7__cxx114listIiSaIiEE5beginEv
+                0x000000000000143e       0x4b /tmp/ccHZDu73.o
+                0x000000000000143e                std::__cxx11::list<int, std::allocator<int> >::begin()
+ *fill*         0x0000000000001489        0x1 
+ .text._ZNSt7__cxx114listIiSaIiEE3endEv
+                0x000000000000148a       0x48 /tmp/ccHZDu73.o
+                0x000000000000148a                std::__cxx11::list<int, std::allocator<int> >::end()
+ .text._ZNKSt14_List_iteratorIiEneERKS0_
+                0x00000000000014d2       0x22 /tmp/ccHZDu73.o
+                0x00000000000014d2                std::_List_iterator<int>::operator!=(std::_List_iterator<int> const&) const
+ .text._ZNSt14_List_iteratorIiEppEv
+                0x00000000000014f4       0x1f /tmp/ccHZDu73.o
+                0x00000000000014f4                std::_List_iterator<int>::operator++()
+ *fill*         0x0000000000001513        0x1 
+ .text._ZNKSt14_List_iteratorIiEdeEv
+                0x0000000000001514       0x1d /tmp/ccHZDu73.o
+                0x0000000000001514                std::_List_iterator<int>::operator*() const
+ *fill*         0x0000000000001531        0x1 
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEEC2Ev
+                0x0000000000001532       0x27 /tmp/ccHZDu73.o
+                0x0000000000001532                std::__cxx11::_List_base<int, std::allocator<int> >::_List_base()
+                0x0000000000001532                std::__cxx11::_List_base<int, std::allocator<int> >::_List_base()
+ .text._ZSt7forwardIRKiEOT_RNSt16remove_referenceIS2_E4typeE
+                0x0000000000001559        0xe /tmp/ccHZDu73.o
+                0x0000000000001559                int const& std::forward<int const&>(std::remove_reference<int const&>::type&)
+ *fill*         0x0000000000001567        0x1 
+ .text._ZNSt7__cxx114listIiSaIiEE9_M_insertIJRKiEEEvSt14_List_iteratorIiEDpOT_
+                0x0000000000001568       0x5d /tmp/ccHZDu73.o
+                0x0000000000001568                void std::__cxx11::list<int, std::allocator<int> >::_M_insert<int const&>(std::_List_iterator<int>, int const&)
+ .text._ZSt11__addressofIiEPT_RS0_
+                0x00000000000015c5        0xe /tmp/ccHZDu73.o
+                0x00000000000015c5                int* std::__addressof<int>(int&)
+ .text._ZSt11__addressofIKiEPT_RS1_
+                0x00000000000015d3        0xe /tmp/ccHZDu73.o
+                0x00000000000015d3                int const* std::__addressof<int const>(int const&)
+ *fill*         0x00000000000015e1        0x1 
+ .text._ZNSt7__cxx114listIiSaIiEE8_M_eraseESt14_List_iteratorIiE
+                0x00000000000015e2       0x77 /tmp/ccHZDu73.o
+                0x00000000000015e2                std::__cxx11::list<int, std::allocator<int> >::_M_erase(std::_List_iterator<int>)
+ *fill*         0x0000000000001659        0x1 
+ .text._ZNSt14_List_iteratorIiEC2EPNSt8__detail15_List_node_baseE
+                0x000000000000165a       0x1a /tmp/ccHZDu73.o
+                0x000000000000165a                std::_List_iterator<int>::_List_iterator(std::__detail::_List_node_base*)
+                0x000000000000165a                std::_List_iterator<int>::_List_iterator(std::__detail::_List_node_base*)
+ .text._ZNSt10_List_nodeIiE9_M_valptrEv
+                0x0000000000001674       0x1e /tmp/ccHZDu73.o
+                0x0000000000001674                std::_List_node<int>::_M_valptr()
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEE10_List_implC2Ev
+                0x0000000000001692       0x36 /tmp/ccHZDu73.o
+                0x0000000000001692                std::__cxx11::_List_base<int, std::allocator<int> >::_List_impl::_List_impl()
+                0x0000000000001692                std::__cxx11::_List_base<int, std::allocator<int> >::_List_impl::_List_impl()
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEE7_M_initEv
+                0x00000000000016c8       0x37 /tmp/ccHZDu73.o
+                0x00000000000016c8                std::__cxx11::_List_base<int, std::allocator<int> >::_M_init()
+ *fill*         0x00000000000016ff        0x1 
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEE21_M_get_Node_allocatorEv
+                0x0000000000001700        0xe /tmp/ccHZDu73.o
+                0x0000000000001700                std::__cxx11::_List_base<int, std::allocator<int> >::_M_get_Node_allocator()
+ .text._ZNSt16allocator_traitsISaISt10_List_nodeIiEEE7destroyIiEEvRS2_PT_
+                0x000000000000170e       0x26 /tmp/ccHZDu73.o
+                0x000000000000170e                void std::allocator_traits<std::allocator<std::_List_node<int> > >::destroy<int>(std::allocator<std::_List_node<int> >&, int*)
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_put_nodeEPSt10_List_nodeIiE
+                0x0000000000001734       0x2b /tmp/ccHZDu73.o
+                0x0000000000001734                std::__cxx11::_List_base<int, std::allocator<int> >::_M_put_node(std::_List_node<int>*)
+ *fill*         0x000000000000175f        0x1 
+ .text._ZNSt7__cxx114listIiSaIiEE14_M_create_nodeIJRKiEEEPSt10_List_nodeIiEDpOT_
+                0x0000000000001760       0xe2 /tmp/ccHZDu73.o
+                0x0000000000001760                std::_List_node<int>* std::__cxx11::list<int, std::allocator<int> >::_M_create_node<int const&>(int const&)
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_inc_sizeEm
+                0x0000000000001842       0x2c /tmp/ccHZDu73.o
+                0x0000000000001842                std::__cxx11::_List_base<int, std::allocator<int> >::_M_inc_size(unsigned long)
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_dec_sizeEm
+                0x000000000000186e       0x29 /tmp/ccHZDu73.o
+                0x000000000000186e                std::__cxx11::_List_base<int, std::allocator<int> >::_M_dec_size(unsigned long)
+ *fill*         0x0000000000001897        0x1 
+ .text._ZN9__gnu_cxx16__aligned_membufIiE6_M_ptrEv
+                0x0000000000001898       0x1a /tmp/ccHZDu73.o
+                0x0000000000001898                __gnu_cxx::__aligned_membuf<int>::_M_ptr()
+ .text._ZNSaISt10_List_nodeIiEEC2Ev
+                0x00000000000018b2       0x1b /tmp/ccHZDu73.o
+                0x00000000000018b2                std::allocator<std::_List_node<int> >::allocator()
+                0x00000000000018b2                std::allocator<std::_List_node<int> >::allocator()
+ *fill*         0x00000000000018cd        0x1 
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_set_sizeEm
+                0x00000000000018ce       0x29 /tmp/ccHZDu73.o
+                0x00000000000018ce                std::__cxx11::_List_base<int, std::allocator<int> >::_M_set_size(unsigned long)
+ *fill*         0x00000000000018f7        0x1 
+ .text._ZN9__gnu_cxx13new_allocatorISt10_List_nodeIiEE7destroyIiEEvPT_
+                0x00000000000018f8        0xf /tmp/ccHZDu73.o
+                0x00000000000018f8                void __gnu_cxx::new_allocator<std::_List_node<int> >::destroy<int>(int*)
+ .text._ZNSt16allocator_traitsISaISt10_List_nodeIiEEE10deallocateERS2_PS1_m
+                0x0000000000001907       0x2e /tmp/ccHZDu73.o
+                0x0000000000001907                std::allocator_traits<std::allocator<std::_List_node<int> > >::deallocate(std::allocator<std::_List_node<int> >&, std::_List_node<int>*, unsigned long)
+ *fill*         0x0000000000001935        0x1 
+ .text._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_get_nodeEv
+                0x0000000000001936       0x1f /tmp/ccHZDu73.o
+                0x0000000000001936                std::__cxx11::_List_base<int, std::allocator<int> >::_M_get_node()
+ *fill*         0x0000000000001955        0x1 
+ .text._ZNSt15__allocated_ptrISaISt10_List_nodeIiEEEC2ERS2_PS1_
+                0x0000000000001956       0x39 /tmp/ccHZDu73.o
+                0x0000000000001956                std::__allocated_ptr<std::allocator<std::_List_node<int> > >::__allocated_ptr(std::allocator<std::_List_node<int> >&, std::_List_node<int>*)
+                0x0000000000001956                std::__allocated_ptr<std::allocator<std::_List_node<int> > >::__allocated_ptr(std::allocator<std::_List_node<int> >&, std::_List_node<int>*)
+ *fill*         0x000000000000198f        0x1 
+ .text._ZNSt15__allocated_ptrISaISt10_List_nodeIiEEED2Ev
+                0x0000000000001990       0x3b /tmp/ccHZDu73.o
+                0x0000000000001990                std::__allocated_ptr<std::allocator<std::_List_node<int> > >::~__allocated_ptr()
+                0x0000000000001990                std::__allocated_ptr<std::allocator<std::_List_node<int> > >::~__allocated_ptr()
+ .text._ZNSt16allocator_traitsISaISt10_List_nodeIiEEE9constructIiJRKiEEEvRS2_PT_DpOT0_
+                0x00000000000019cb       0x39 /tmp/ccHZDu73.o
+                0x00000000000019cb                void std::allocator_traits<std::allocator<std::_List_node<int> > >::construct<int, int const&>(std::allocator<std::_List_node<int> >&, int*, int const&)
+ .text._ZNSt15__allocated_ptrISaISt10_List_nodeIiEEEaSEDn
+                0x0000000000001a04       0x1e /tmp/ccHZDu73.o
+                0x0000000000001a04                std::__allocated_ptr<std::allocator<std::_List_node<int> > >::operator=(decltype(nullptr))
+ .text._ZNSt10_List_nodeImE9_M_valptrEv
+                0x0000000000001a22       0x1e /tmp/ccHZDu73.o
+                0x0000000000001a22                std::_List_node<unsigned long>::_M_valptr()
+ .text._ZN9__gnu_cxx16__aligned_membufIiE7_M_addrEv
+                0x0000000000001a40        0xe /tmp/ccHZDu73.o
+                0x0000000000001a40                __gnu_cxx::__aligned_membuf<int>::_M_addr()
+ .text._ZN9__gnu_cxx13new_allocatorISt10_List_nodeIiEEC2Ev
+                0x0000000000001a4e        0xb /tmp/ccHZDu73.o
+                0x0000000000001a4e                __gnu_cxx::new_allocator<std::_List_node<int> >::new_allocator()
+                0x0000000000001a4e                __gnu_cxx::new_allocator<std::_List_node<int> >::new_allocator()
+ *fill*         0x0000000000001a59        0x1 
+ .text._ZN9__gnu_cxx13new_allocatorISt10_List_nodeIiEE10deallocateEPS2_m
+                0x0000000000001a5a       0x23 /tmp/ccHZDu73.o
+                0x0000000000001a5a                __gnu_cxx::new_allocator<std::_List_node<int> >::deallocate(std::_List_node<int>*, unsigned long)
+ .text._ZNSt16allocator_traitsISaISt10_List_nodeIiEEE8allocateERS2_m
+                0x0000000000001a7d       0x2a /tmp/ccHZDu73.o
+                0x0000000000001a7d                std::allocator_traits<std::allocator<std::_List_node<int> > >::allocate(std::allocator<std::_List_node<int> >&, unsigned long)
+ .text._ZSt11__addressofISaISt10_List_nodeIiEEEPT_RS3_
+                0x0000000000001aa7        0xe /tmp/ccHZDu73.o
+                0x0000000000001aa7                std::allocator<std::_List_node<int> >* std::__addressof<std::allocator<std::_List_node<int> > >(std::allocator<std::_List_node<int> >&)
+ *fill*         0x0000000000001ab5        0x1 
+ .text._ZN9__gnu_cxx13new_allocatorISt10_List_nodeIiEE9constructIiJRKiEEEvPT_DpOT0_
+                0x0000000000001ab6       0x43 /tmp/ccHZDu73.o
+                0x0000000000001ab6                void __gnu_cxx::new_allocator<std::_List_node<int> >::construct<int, int const&>(int*, int const&)
+ *fill*         0x0000000000001af9        0x1 
+ .text._ZN9__gnu_cxx16__aligned_membufImE6_M_ptrEv
+                0x0000000000001afa       0x1a /tmp/ccHZDu73.o
+                0x0000000000001afa                __gnu_cxx::__aligned_membuf<unsigned long>::_M_ptr()
+ .text._ZN9__gnu_cxx13new_allocatorISt10_List_nodeIiEE8allocateEmPKv
+                0x0000000000001b14       0x4b /tmp/ccHZDu73.o
+                0x0000000000001b14                __gnu_cxx::new_allocator<std::_List_node<int> >::allocate(unsigned long, void const*)
+ *fill*         0x0000000000001b5f        0x1 
+ .text._ZN9__gnu_cxx16__aligned_membufImE7_M_addrEv
+                0x0000000000001b60        0xe /tmp/ccHZDu73.o
+                0x0000000000001b60                __gnu_cxx::__aligned_membuf<unsigned long>::_M_addr()
+ .text._ZNK9__gnu_cxx13new_allocatorISt10_List_nodeIiEE8max_sizeEv
+                0x0000000000001b6e       0x14 /tmp/ccHZDu73.o
+                0x0000000000001b6e                __gnu_cxx::new_allocator<std::_List_node<int> >::max_size() const
+ *fill*         0x0000000000001b82        0xe 
+ .text          0x0000000000001b90       0x72 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x0000000000001b90                __libc_csu_init
+                0x0000000000001c00                __libc_csu_fini
+ .text          0x0000000000001c02        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .text          0x0000000000001c02        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x0000000000001c04        0x9
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000001c04        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+                0x0000000000001c04                _fini
+ .fini          0x0000000000001c08        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x0000000000001c10       0x72
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000001c10        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000001c10                _IO_stdin_used
+ .rodata        0x0000000000001c14       0x6e /tmp/ccHZDu73.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000001c84      0x1ec
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000001c84      0x1ec /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000001c84                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000001e70      0x810
+ *(.eh_frame)
+ .eh_frame      0x0000000000001e70       0x30 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x0000000000001ea0        0x0 
+ .eh_frame      0x0000000000001ea0       0x40 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .eh_frame      0x0000000000001ee0       0x18 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000001ef8      0x728 /tmp/ccHZDu73.o
+                                        0x740 (size before relaxing)
+ .eh_frame      0x0000000000002620       0x5c /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000000267c        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x0000000000002680       0x1f
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZNSt7__cxx114listIiSaIiEE8_M_eraseESt14_List_iteratorIiE
+                0x0000000000002680        0x4 /tmp/ccHZDu73.o
+ .gcc_except_table._ZNSt7__cxx1110_List_baseIiSaIiEE7_M_initEv
+                0x0000000000002684        0x4 /tmp/ccHZDu73.o
+ .gcc_except_table._ZNSt7__cxx1110_List_baseIiSaIiEE11_M_put_nodeEPSt10_List_nodeIiE
+                0x0000000000002688        0x4 /tmp/ccHZDu73.o
+ .gcc_except_table._ZNSt7__cxx114listIiSaIiEE14_M_create_nodeIJRKiEEEPSt10_List_nodeIiEDpOT_
+                0x000000000000268c       0x13 /tmp/ccHZDu73.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000202d28                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000202d28        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000202d28       0x10
+                0x0000000000202d28                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000202d28        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .init_array    0x0000000000202d30        0x8 /tmp/ccHZDu73.o
+                0x0000000000202d38                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000202d38        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000202d38        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000202d40        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000202d40        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynamic        0x0000000000202d40      0x210
+ *(.dynamic)
+ .dynamic       0x0000000000202d40      0x210 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000202d40                _DYNAMIC
+
+.got            0x0000000000202f50       0xb0
+ *(.got.plt)
+ .got.plt       0x0000000000202f50       0x78 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000202f50                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000202fc8       0x38 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000203000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000203000       0x18
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000203000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000203000                data_start
+                0x0000000000203000                __data_start
+ .data          0x0000000000203004        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000203004        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ *fill*         0x0000000000203004        0x4 
+ .data.rel.local
+                0x0000000000203008        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                0x0000000000203008                __dso_handle
+ .data          0x0000000000203010        0x0 /tmp/ccHZDu73.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000203010        0x8 /tmp/ccHZDu73.o
+                0x0000000000203010                DW.ref.__gxx_personality_v0
+ .data          0x0000000000203018        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000203018        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .data          0x0000000000203018        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x0000000000203018        0x0
+ .tm_clone_table
+                0x0000000000203018        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .tm_clone_table
+                0x0000000000203018        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000203018                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000203018                . = .
+                0x0000000000203018                __bss_start = .
+
+.bss            0x0000000000203020      0x118
+ *(.dynbss)
+ *fill*         0x0000000000203020        0x0 
+ .dynbss        0x0000000000203020      0x110 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000203020                std::cout@@GLIBCXX_3.4
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000203130        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x0000000000203130        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000203130        0x1 /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+ .bss           0x0000000000203131        0x1 /tmp/ccHZDu73.o
+ .bss           0x0000000000203132        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000203132        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+ .bss           0x0000000000203132        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x0000000000203138                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000203132        0x6 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000203138                . = ALIGN (0x8)
+                0x0000000000203138                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000603138        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000603138                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000603138                . = ALIGN (0x8)
+                0x0000000000603138                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000603138                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2a
+ *(.comment)
+ .comment       0x0000000000000000       0x2a /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o
+                                         0x2b (size before relaxing)
+ .comment       0x000000000000002a       0x2b /tmp/ccHZDu73.o
+ .comment       0x000000000000002a       0x2b /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(UnDirectedGraph elf64-x86-64)

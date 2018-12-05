@@ -1,0 +1,43 @@
+Loading /home/luis/Desktop/pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/DeadLockDetection/deadlock_tests/deadlock, Image id = 1
+Loading Main exe /home/luis/Desktop/pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/DeadLockDetection/deadlock_tests/deadlock, Image id = 1
+PIN_LOW_ADDR 0x00005569dbc6d000
+PIN_HIGH_ADDR 0x00005569dbe6f0a7
+ start 0x00007f96d2583000
+Loading /lib64/ld-linux-x86-64.so.2, Image id = 2
+Loading [vdso], Image id = 3
+Loading /lib/x86_64-linux-gnu/libpthread.so.0, Image id = 4
+Loading /lib/x86_64-linux-gnu/libc.so.6, Image id = 5
+thread [0] R 0x00007f96be834768 ip: 0x00005569dbc6da24
+thread [0] before lock: [28] 	SAFE
+address not found: 140285705176336
+thread [0] after  unlock: [28]	SAFE
+thread [1] before lock: [28] 	SAFE
+address not found: 140285404185872
+thread [1] before lock: [92] 	SAFE
+thread [1] thread [1] after  unlock: [28]	SAFE
+thread [2] before lock: [92] 	SAFE
+address not found: 140285308822800
+thread [1] after  unlock: [92]	SAFE
+thread [1] before lock: [28] 	SAFE
+thread [1] thread [2] before lock: [28] 	SAFE
+thread [2] thread [1] before lock: [92] 	DEADLOCK
+thread [1] Count[1] = 6866
+Count[2] = 1187
+Count[0] = 220320
+Unloading /home/luis/Desktop/pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/DeadLockDetection/deadlock_tests/deadlock
+Unloading /lib64/ld-linux-x86-64.so.2
+Unloading [vdso]
+Unloading /lib/x86_64-linux-gnu/libpthread.so.0
+Unloading /lib/x86_64-linux-gnu/libc.so.6
+===============================================
+DeadLockPinTool analysis results: 
+Number of instructions: 0
+Number of basic blocks: 0
+Number of threads: 3
+Count[0]= 220320
+Count[1]= 6866
+Count[2]= 1187
+===============================================
+START_PIN_LIST
+0x00007f96bdaf0510
+END_PIN_LIST
