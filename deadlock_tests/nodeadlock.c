@@ -13,7 +13,7 @@ void *resource1() {
         // printf("Thread1 lock1 aquired %d\n", i);
         printf("Thread1 lock1 aquired\n");
 
-        sleep(1);
+        sleep(.5);
         
         pthread_mutex_lock(&lock2);
         // printf("Thread1 lock2 aquired %d\n", i);
@@ -34,7 +34,7 @@ void *resource2() {
         // printf("Thread2 lock1 aquired %d\n", i);
         printf("Thread2 lock1 aquired\n");
 
-        sleep(1);
+        sleep(.5);
         
         pthread_mutex_lock(&lock2);
         // printf("Thread2 lock2 aquired %d\n", i);

@@ -8,7 +8,7 @@ CFLAGS  = -g -Wall -v
 # -pthread support for threads
 LDFLAGS = -lpthread -Wl,-Map=$@.map
 # the build target executable:
-TARGET = nodeadlock
+TARGET = deadlock
 
 all: $(TARGET)
 

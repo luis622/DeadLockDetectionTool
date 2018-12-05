@@ -1,4 +1,6 @@
 // time ../../../pin -t obj-intel64/DeadlockPinTool.so -- ./deadlock_test/nodeadlock
+// time ../../../pin -t obj-intel64/DeadlockPinTool.so -o out -- ./deadlock_test/nodeadlock
+// time valgrind --tool=helgrind deadlock_tests/nodeadlock 
 #include "pin.H"
 #include <pthread.h>
 #include "DeadlockPinToolUtils.h"
@@ -23,12 +25,14 @@ Graph::Graph()
     adj = new std::list<int32_t>[100]; 
 } 
 
+// 
 void Graph::addEdge(int32_t v, int32_t w) 
 { 
-    adj[v].push_back(w); // Add w to v’s list. 
-    adj[w].push_back(v); // Add w to v’s list. 
+    adj[v].push_back(w);
+    adj[w].push_back(v);
 }
 
+// 
 void Graph::removeEdge(int32_t v, int32_t w) 
 {
     adj[v].remove(w);
@@ -199,7 +203,7 @@ VOID read_map(ADDRINT addr, THREADID threadid)
 
     if ( got == race_map.end() )
     {
-        *out << "address not found: " << addr << endl;
+        // *out << "address not found: " << addr << endl;
         write_track = new pin_tracker;
         write_track->threadid = threadid;
         write_track->read = false;
@@ -211,7 +215,7 @@ VOID read_map(ADDRINT addr, THREADID threadid)
         *out << "thread [" << threadid << "] ";
         if(g.isCyclic())
         {
-            std::cout << "Add to deadlock list [" << (void*)addr << "] " << std::endl;
+            // std::cout << "Add to deadlock list [" << (void*)addr << "] " << std::endl;
                 add_to_effected(list_head, (void*)addr, threadid);
         }
     }

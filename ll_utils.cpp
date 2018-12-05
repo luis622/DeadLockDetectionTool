@@ -23,7 +23,7 @@ int add_to_effected(race_issues **head,void* mem_addr, THREADID tid1)
     {
         /* if head == NULL, node created is the new head of the list! */
         *head = new_issue;
-        printf("adding to head\n");
+        // printf("adding to head\n");
     } 
     else{
         /* otherwise, traverse linked list until we reach the end */

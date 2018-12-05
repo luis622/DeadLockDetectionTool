@@ -8,12 +8,12 @@ pthread_mutex_t lock1, lock2;
 void *resource1() {
 
     printf("Job started in resource1\n");
-    for (int i=0; i<10; i++) {
+    for (int i=0; i<3; i++) {
         pthread_mutex_lock(&lock1);
         // printf("lock1 aquired %d\n", i);
         printf("Lock1 aquired\n");
 
-        // sleep(2);
+        sleep(.5);
         
         pthread_mutex_lock(&lock2);
         // printf("lock2 aquired %d\n", i);
@@ -28,12 +28,12 @@ void *resource1() {
 void *resource2() {
 
     printf("Job started in resource2\n");
-    for (int i=0; i<10; i++) {
+    for (int i=0; i<3; i++) {
         pthread_mutex_lock(&lock2);
         // printf("lock2 aquired %d\n", i);
         printf("Lock2 aquired\n");
 
-        // sleep(2);
+        sleep(.5);
         
         pthread_mutex_lock(&lock1);
         // printf("lock1 aquired %d\n", i);

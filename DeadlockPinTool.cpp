@@ -55,7 +55,7 @@ static  TLS_KEY tls_key = INVALID_TLS_KEY;
 // Command line switches
 /* ===================================================================== */
 KNOB<string> KnobOutputFile(KNOB_MODE_WRITEONCE,  "pintool",
-    "o", "", "specify file name for MyPinTool output");
+    "o", "", "specify file name for DeadlockinTool output");
 
 KNOB<BOOL>   KnobCount(KNOB_MODE_WRITEONCE,  "pintool",
     "count", "1", "count instructions, basic blocks and threads in the application");
@@ -325,11 +325,11 @@ VOID Instruction(INS ins, VOID *v)
  * @param[in]   numInstInBbl    number of instructions in the basic block
  * @note use atomic operations for multi-threaded applications
  */
-// VOID CountBbl(UINT32 numInstInBbl)
-// {
-//     bblCount++;
-//     insCount += numInstInBbl;
-// }
+VOID CountBbl(UINT32 numInstInBbl)
+{
+    bblCount++;
+    insCount += numInstInBbl;
+}
 
 /* ===================================================================== */
 // Instrumentation callbacks
@@ -405,8 +405,8 @@ VOID Fini(INT32 code, VOID *v)
     clean_map();
     *out <<  "===============================================" << endl;
     *out <<  "DeadLockPinTool analysis results: " << endl;
-    *out <<  "Number of instructions: " << insCount  << endl;
-    *out <<  "Number of basic blocks: " << bblCount  << endl;
+    // *out <<  "Number of instructions: " << insCount  << endl;
+    // *out <<  "Number of basic blocks: " << bblCount  << endl;
     *out <<  "Number of threads: " << threadCount  << endl;
     for (UINT32 t=0; t<threadCount; t++)
     {
@@ -472,9 +472,6 @@ int main(int argc, char *argv[])
         // Register function to be called for every thread before it starts running
         PIN_AddThreadStartFunction(ThreadStart, NULL);
 
-        // Register Routine to be called to instrument rtn
-        // RTN_AddInstrumentFunction(Routine, 0);
-
         // Register function to be called when the application exits
         PIN_AddFiniFunction(Fini, NULL);
 
@@ -485,7 +482,7 @@ int main(int argc, char *argv[])
     }
     
     cerr <<  "===============================================" << endl;
-    cerr <<  "This application is instrumented by MyPinTool" << endl;
+    cerr <<  "This application is instrumented by DeadlockPinTool" << endl;
     if (!KnobOutputFile.Value().empty()) 
     {
         cerr << "See file " << KnobOutputFile.Value() << " for analysis results" << endl;
