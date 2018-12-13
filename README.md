@@ -24,11 +24,11 @@ Our version is developed on the Pin 3.7version on a 64 bit Linux OS.
 
 # Run
 * in the DeadLockDetectionTool Directory type in something like
-* ../../../pin -t obj-intel64/MyPinTool.so -- ../../../../deadlock_tests/deadlock
+* ../../../pin -t obj-intel64/DeadlockPinTool.so -- ../../../../deadlock_tests/deadlock
 
 this command line does the following:
 * ../../../pin --> executes the intel pin tool
-* -t obj-intel64/MyPinTool.so --> -t option tells the pin executable which tool .so file to use. In this case it is our Dead ock detection tool called DeadlockPinTool. 
+* -t obj-intel64/DeadlockPinTool.so --> -t option tells the pin executable which tool .so file to use. In this case it is our Dead ock detection tool called DeadlockPinTool. 
 * -- ../../../../deadlock_tests/deadlock This tells what program we are doing our dynamic analysis on
 
 #Timing
