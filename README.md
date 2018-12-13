@@ -33,6 +33,6 @@ this command line does the following:
 
 #Timing
 
-time ../../../pin -t obj-intel64/DeadlockPinTool.so -- ./deadlock_test/nodeadlock
-time ../../../pin -t obj-intel64/DeadlockPinTool.so -o out -- ./deadlock_test/nodeadlock
+time ../../../pin -t obj-intel64/DeadlockPinTool.so -o out -- ./deadlock_tests/nodeadlock
+time ../../../pin -t obj-intel64/DeadlockPinTool.so -o out -- ./deadlock_tests/deadlock
 time valgrind --tool=helgrind deadlock_tests/nodeadlock 
