@@ -40,9 +40,6 @@ int add_to_effected(race_issues **head,void* mem_addr, THREADID tid1)
 	return 0 ;
 }
 
-
-
-
  /* Given a reference (pointer to pointer) to the head of a list
    and a key, deletes the first occurrence of key in linked list */
 int remove_from_job_queue(race_issues **head, ADDRINT* mem_addr){

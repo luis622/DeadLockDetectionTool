@@ -37,17 +37,11 @@ typedef struct event_tracker{
 	
 }event_tracker;
 
-
-void print_issue_queue(race_issues** head);
 int contains(race_issues** head, ADDRINT* mem_addr);
-int remove_from_job_queue(race_issues** head, ADDRINT* mem_addr);
 int add_to_effected(race_issues** head,void* mem_addr, THREADID tid1);
 void log_issue_queue(race_issues** head,std::ostream* fp);
 
 int delete_event_queue (event_list** head);
 void print_event_queue(event_list** head);
-int add_to_event(event_list** head,ADDRINT mem_addr);
-int contains_event(event_list** head, ADDRINT mem_addr);
-
 
 #endif

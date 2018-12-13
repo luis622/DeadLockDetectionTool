@@ -106,22 +106,6 @@ VOID ImageUnload(IMG img, VOID *v)
     *out << "Unloading " << IMG_Name(img) << endl;
 }
 
-// const char * StripPath(const char * path)
-// {
-//     const char * file = strrchr(path,'/');
-//     if (file)
-//         return file+1;
-//     else
-//         return path;
-// }
-std::string func_name;
-// // Pin calls this function every time a new rtn is executed
-// inline VOID Routine(RTN rtn, VOID *v, THREADID tid)
-// {
-//   func_name = RTN_Name(rtn);
-// }
-
-// This routine is executed for each image.
 VOID SetupLocks(IMG img, VOID *v)
 {
     RTN rtn; 
